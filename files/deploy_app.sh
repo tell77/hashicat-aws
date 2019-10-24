@@ -4,16 +4,15 @@
 
 cat << EOM > /var/www/html/index.html
 <html>
-  <head><title>Meow!</title></head>
+  <head><title>I need some more coffee right meow</title></head>
   <body>
   <div style="width:800px;margin: 0 auto">
 
  
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
-  Welcome to ${PREFIX}'s app. I need a nap right meow. 
- 
-  
+  Welcome to CAT WORLD!, ${PREFIX}'s. Replace this text with your own. 
+  <!-- END -->
   </div>
   </body>
 </html>
